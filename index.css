@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=KoHo:wght@500&display=swap');
+
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'KoHo', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.container{
+    margin: 10px auto;
+    background-color: rgb(227, 231, 240);
+    padding: 20px;
+    width: 350px;
+    height: 290px;
+    padding: 0 30px;
+    line-height: 2rem;
+}
+header{
+        background-color: rgb(227, 231, 240);
+        /* display: block; */
+        /* position: relative; */
+        margin: 20px 0;
+        display: flex;
+        justify-content: center;
+
+}
+input{
+    padding: 10px;
+    border-radius: 3px solid rgb(167, 140, 140);
+}
+input,label{
+    display: block;
+    width: 100%;
+}
+.btn{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 20px 0;
+    background-color: rgb(196, 208, 230);
+}
+
+.bg-font{
+    background-color: grey;
+    color: #fff;
+}
+
+.items{
+    padding: 20px 0;
+}
+li{
+    list-style-type: none;
+    background-color: rgb(196, 208, 230);
+    width:100%;
+    margin: 20px 0;
+    
+}
+
+form{
+    padding:  2px 10px;
+}
+#users{
+    /* background-color: rgb(230, 174, 102); */
+    display: block;
+    text-align: left;
+}
+.error{
+        background-color: rgb(221, 35, 35);
+        color: #fff;
+        font-weight: bold;
+
+}
